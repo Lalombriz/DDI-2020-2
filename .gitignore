@@ -1,0 +1,59 @@
+# Este archivo .gitignore debe colocarse en la raíz del directorio de su proyecto de Unity
+#
+# Obtenga lo último de https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+[ Ll ] ibrary /
+[ Tt ] emp /
+[ Oo ] bj /
+[ Bb ] uild /
+[ Bb ] uilds /
+[ Ll ] ogs /
+[ Mm ] emoryCaptures /
+
+# Los metadatos de activos solo deben ignorarse cuando el activo correspondiente también se ignora
+! / [ Aa ] ssets / ** / * .meta
+
+# Descomente esta línea si desea ignorar el complemento de herramientas de la tienda de activos
+# / [Aa] ssets / AssetStoreTools *
+
+# Complemento Jetbrains Rider generado automáticamente
+[ Aa ] ssets / Plugins / Editor / JetBrains *
+
+# Directorio de caché de Visual Studio
+.vs /
+
+# Directorio de caché de Gradle
+.gradle /
+
+# Archivos de proyecto y solución VS / MD / Consulo autogenerados
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+* .usuario
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+# Archivos meta generados por Unity3D
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+# Archivo generado por Unity3D en informes de fallas
+sysinfo.txt
+
+# Construye
+* .apk
+* .unitypackage
+
+# Archivo generado por Crashlytics
+crashlytics-build.properties
