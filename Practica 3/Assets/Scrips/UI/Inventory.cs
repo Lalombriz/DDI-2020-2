@@ -4,26 +4,41 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-	public int space = 15;
-    public List<GameObject> items = new List<GameObject>();
+    public delegate void OnChange();
+    public OnChange onChange;      //deleados para hacer cambios en inventarios e inventoryUI
 
-    public void Add(GameObject item)
+
+    
+	public int space = 15;
+    public List<Item> items = new List<Item>(); //recolectamos una lista de objetos 
+
+    public void Add(Item item)
     {
         if(items.Count < space)
         {
             items.Add(item);
+            if(onChange != null)
+            {
+                onChange.Invoke();
+            }
         }
         else
         {
             Debug.LogWarning("Espacio Insuficiente!");
         }
+
+
     }
 
-    public void Remove(GameObject item)
+    public void Remove(Item item)
     {
         if(items.Contains(item))
         {
             items.Remove(item);
+            if(onChange != null)
+            {
+                onChange.Invoke();
+            }
         }
         else
         {

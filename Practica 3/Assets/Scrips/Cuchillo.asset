@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606292e1c99e6e2f7a850803924df26d, type: 3}
+  m_Name: Cuchillo
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: d4be6816d087868e682a3609572cf84d, type: 3}
+  itemType: 0
