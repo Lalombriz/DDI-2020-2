@@ -36,14 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scrips\Item.cs" />
      <Compile Include="Assets\Scrips\Pickup.cs" />
      <Compile Include="Assets\Scrips\UI\InventoryUI.cs" />
      <Compile Include="Assets\Scrips\codigo\Logica.cs" />
      <Compile Include="Assets\Scrips\Interactable.cs" />
      <Compile Include="Assets\Scrips\Enemigo.cs" />
      <Compile Include="Assets\Scrips\UI\Inventory.cs" />
-     <Compile Include="Assets\Scrips\Item.cs" />
      <Compile Include="Assets\Scrips\UI\Slot.cs" />
+     <Compile Include="Assets\Scrips\Items\Acha.cs" />
+     <Compile Include="Assets\Scrips\Items\Cuchillo.cs" />
+     <Compile Include="Assets\Scrips\Items\Agua_bendita.cs" />
+     <Compile Include="Assets\Scrips\Items\Bumeran.cs" />
+     <Compile Include="Assets\Scrips\Items\Vida.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/eduardo/Unity/Hub/Editor/2020.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

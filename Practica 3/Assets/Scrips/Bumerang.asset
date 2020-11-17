@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 606292e1c99e6e2f7a850803924df26d, type: 3}
+  m_Script: {fileID: 11500000, guid: 721d4632239277164a6bb50540e341b3, type: 3}
   m_Name: Bumerang
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 55fedbe3d0063592abf7377b9229c7be, type: 3}
   itemType: 0
+  vel: 12.2
+  damage: 22.4

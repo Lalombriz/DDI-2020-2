@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 606292e1c99e6e2f7a850803924df26d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de49cafc61b67d8bb21464b4ec0e979, type: 3}
   m_Name: Acha
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 2ad7e89a888b3a492b42459d5e2ff3bb, type: 3}
   itemType: 0
+  critico: 15.5
+  damage: 33.5
+  vel: 12.5
