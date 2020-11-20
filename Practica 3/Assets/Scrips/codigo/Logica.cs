@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Logica : MonoBehaviour
 {
@@ -25,8 +26,8 @@ public class Logica : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        x = Input.GetAxis("Horizontal");
-        y = Input.GetAxis("Vertical");
+        x = CrossPlatformInputManager.GetAxis("Horizontal");
+        y = CrossPlatformInputManager.GetAxis("Vertical");
         
         
         anim.SetFloat("velX",x);

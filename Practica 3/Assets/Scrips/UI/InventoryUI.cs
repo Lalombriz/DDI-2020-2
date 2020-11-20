@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -21,7 +22,8 @@ public class InventoryUI : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.I))
+        //Input.GetKeyDown(KeyCode.I)
+        if(CrossPlatformInputManager.GetButtonDown("Fire2"))
         {
         	Menu.SetActive(!Menu.activeSelf);
             UpdateUI();
