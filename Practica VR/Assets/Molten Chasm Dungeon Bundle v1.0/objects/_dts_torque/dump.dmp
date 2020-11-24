@@ -1,0 +1,127 @@
+Max file D:\!!!WORK!!!!\export\Dark-dungeons\exported\_3dsmax7\X-bridge-02.max exported to d:\!!!work!!!!\export\dark-dungeons\exported\_3dsmax7\_dts_torque\x-bridge-02.dts
+Exported on Fri Jul 23 15:27:30 2010
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node base01 with parent Scene Root
+Found subtree starting at Node "base01"
+Processing Node detail64 with parent base01
+Processing Node detail32 with parent base01
+Processing Node detail16 with parent base01
+Processing Node start01 with parent base01
+Processing Node X-bridge-02_128 with parent start01
+Processing Node detail128 with parent base01
+Processing Node X-bridge-02_64 with parent Scene Root
+Mesh Node "X-bridge-02_64" with parent "Scene Root" added to entry list
+Processing Node X-bridge-02_32 with parent Scene Root
+Mesh Node "X-bridge-02_32" with parent "Scene Root" added to entry list
+Processing Node X-bridge-02_16 with parent Scene Root
+Mesh Node "X-bridge-02_16" with parent "Scene Root" added to entry list
+Processing Node bounds with parent Scene Root
+Bounding box found
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail64" of size 64 to subtree "base01".
+Adding detail named "detail32" of size 32 to subtree "base01".
+Adding detail named "detail16" of size 16 to subtree "base01".
+Adding detail named "detail128" of size 128 to subtree "base01".
+Adding node "base01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "start01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "X-bridge-02_128" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "X-bridge-02_".
+Adding mesh of size 128 to object "X-bridge-02_".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=0.00000, y=0.00000, z=0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=1.36254
+    actual rotation:  x=0.00000, y=0.00000, z=0.00000, w=1.00000
+Adding mesh of size 64 to object "X-bridge-02_".
+Adding mesh of size 32 to object "X-bridge-02_".
+Adding mesh of size 16 to object "X-bridge-02_".
+
+Third pass:  Collapsing unneeded nodes...
+
+Removing node "base01"
+Removing node "start01"
+
+Add default object states...
+
+Adding object state to 4 detail level(s) of mesh "X-bridge-02_".
+Adding frame.
+Object is visible.
+528 faces, 1584 verts, 1584 tverts before cropping textures and joining verts
+394 faces, 1182 verts, 1182 tverts before cropping textures and joining verts
+262 faces, 786 verts, 786 tverts before cropping textures and joining verts
+128 faces, 384 verts, 384 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "X-bridge-02_128".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "X-bridge-02_128".
+  translation:     x=0.00000, y=0.00000, z=0.16843
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "X-bridge-02_" detail level 16.
+384 verts before joining verts
+267 verts after joining verts
+128 faces before stripping
+Using quick and dirty stripping method.
+80 strips with average length 3.63 (range 3 to 8) and 2 reversals
+Results in 267 cache misses
+
+Optimizing mesh "X-bridge-02_" detail level 32.
+786 verts before joining verts
+426 verts after joining verts
+262 faces before stripping
+Using quick and dirty stripping method.
+134 strips with average length 4.08 (range 3 to 28) and 17 reversals
+Results in 428 cache misses
+
+Optimizing mesh "X-bridge-02_" detail level 64.
+1182 verts before joining verts
+571 verts after joining verts
+394 faces before stripping
+Using quick and dirty stripping method.
+169 strips with average length 4.61 (range 3 to 42) and 47 reversals
+Results in 576 cache misses
+
+Optimizing mesh "X-bridge-02_" detail level 128.
+1584 verts before joining verts
+690 verts after joining verts
+528 faces before stripping
+Using quick and dirty stripping method.
+177 strips with average length 5.51 (range 3 to 50) and 93 reversals
+Results in 704 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail128, Subtree 0, objectDetail 0, size 128
+      detail64, Subtree 0, objectDetail 1, size 64
+      detail32, Subtree 0, objectDetail 2, size 32
+      detail16, Subtree 0, objectDetail 3, size 16
+
+   Subtrees:
+      Subtree 0
+         X-bridge-02_128 --> Object X-bridge-02_ with following details:  128 64 32 16
+
+   Sequences:
+
+   Material list:
+   material #0: "arena".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...
